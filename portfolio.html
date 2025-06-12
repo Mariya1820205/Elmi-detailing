@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ELMI</title>
+    <link rel="shortcut icon" href="img/svg/favicon.ico">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="header-content">
+                <a href="/main.html" class="logo"><img src="img/svg/logo-full.svg" alt="logo"></a>
+                <img src="img/svg/Line.svg" alt="line" class="line-decoration">
+                <ul class="header-menu">
+                    <li><a href="/services.html">Услуги</a></li>
+                    <li><a href="/about.html">О нас</a></li>
+                    <li><a href="/portfolio.html">Портфолио</a></li>
+                    <li><a href="/contacts.html">Контакты</a></li>
+                </ul>
+                <img src="img/svg/Line.svg" alt="line" class="line-decoration">
+
+                <div class="header-contacts">
+                    <a href="tel:»:+79663503434">+7 (966) 350-34-34</a>
+                    <div class="personal-account">
+                             <a href="/auth.html"><svg class="personal-account-icon" xmlns="http://www.w3.org/2000/svg"
+                                    version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32"
+                                    x="0" y="0" viewbox="0 0 512 512" xml:space="preserve" fill="#fff">
+                                    <g>
+                                        <path
+                                            d="M437.02 74.98C388.668 26.63 324.379 0 256 0S123.332 26.629 74.98 74.98C26.63 123.332 0 187.621 0 256s26.629 132.668 74.98 181.02C123.332 485.37 187.621 512 256 512s132.668-26.629 181.02-74.98C485.37
+                                 388.668 512 324.379 512 256s-26.629-132.668-74.98-181.02zM111.105 429.297c8.454-72.735 70.989-128.89 144.895-128.89 38.96 0 75.598 15.179 103.156 42.734 23.281 23.285 37.965 53.687 41.742 86.152C361.641 462.172 311.094 482 256
+                                 482s-105.637-19.824-144.895-52.703zM256 269.507c-42.871 0-77.754-34.882-77.754-77.753C178.246 148.879 213.13 114 256 114s77.754 34.879 77.754 77.754c0 42.871-34.883 77.754-77.754 77.754zm170.719 134.427a175.9 175.9 0 0 
+                                 0-46.352-82.004c-18.437-18.438-40.25-32.27-64.039-40.938 28.598-19.394 47.426-52.16 47.426-89.238C363.754 132.34 315.414 84 256 84s-107.754 48.34-107.754 107.754c0 37.098 18.844 69.875 47.465 89.266-21.887 7.976-42.14 
+                                 20.308-59.566 36.542-25.235 23.5-42.758 53.465-50.883 86.348C50.852 364.242 30 312.512 30 256 30 131.383 131.383 30 256 30s226 101.383 226 226c0 56.523-20.86 108.266-55.281 147.934zm0 0">
+                                        </path>
+                                    </g>
+                                </svg></a>
+                        </div>
+                    <a href="#entry-form" class="button request-button">Оставить заявку <svg data-v-5dfe8db4=""
+                                class="btn-big-arrow__icon" xmlns="http://www.w3.org/2000/svg">
+                                <path data-v-5dfe8db4=""
+                                    d="M4 11.25C3.58579 11.25 3.25 11.5858 3.25 12C3.25 12.4142 3.58579 12.75 4 12.75L4 11.25ZM20 12.75C20.4142 12.75 20.75 12.4142 20.75 12C20.75 11.5858 20.4142 
+                    11.25 20 11.25V12.75ZM16.528 6.46731C16.2338 6.17573 15.7589 6.17784 15.4673 6.47204C15.1757 6.76624 15.1778 7.24111 15.472 7.53269L16.528 6.46731ZM17.763 8.74731L17.235 9.28L17.763 
+                    8.74731ZM17.763 15.2527L18.2909 15.7854L17.763 15.2527ZM15.472 16.4673C15.1778 16.7589 15.1757 17.2338 15.4673 17.528C15.7589 17.8222 16.2338 17.8243 16.528 17.5327L15.472 16.4673ZM19.9801
+                     11.6867L20.7241 11.5918V11.5918L19.9801 11.6867ZM19.9801 12.3133L20.7241 12.4082V12.4082L19.9801 12.3133ZM4 12.75L20 12.75V11.25L4 11.25L4 12.75ZM15.472 7.53269L17.235 9.28L18.2909 8.21462L16.528
+                      6.46731L15.472 7.53269ZM17.235 14.72L15.472 16.4673L16.528 17.5327L18.2909 15.7854L17.235 14.72ZM17.235 9.28C17.9505 9.98914 18.4413 10.4772 18.7734 10.8907C19.096 11.2924 19.2067 11.5504 19.2361
+                       11.7815L20.7241 11.5918C20.6453 10.9737 20.3504 10.4588 19.9429 9.95146C19.545 9.45597 18.9814 8.89892 18.2909 8.21462L17.235 9.28ZM18.2909 15.7854C18.9814 15.1011 19.545 14.544 19.9429 14.0485C20.3504
+                        13.5412 20.6453 13.0263 20.7241 12.4082L19.2361 12.2185C19.2067 12.4496 19.096 12.7076 18.7734 13.1093C18.4413 13.5228 17.9505 14.0109 17.235 14.72L18.2909 15.7854ZM19.2361 11.7815C19.2546 11.9266 19.2546
+                         12.0734 19.2361 12.2185L20.7241 12.4082C20.7586 12.1371 20.7586 11.8629 20.7241 11.5918L19.2361 11.7815Z">
+                                </path>
+                            </svg>
+                        </a>
+                </div>
+            </div>
+        </header>
+
+
+        <div class="main-screen" style=" background-image: url(img/webp/screensaver-portfolio.png);">
+            <div class="content">
+                <div class="content-text">
+                    <h1>Портфолио</h1>
+                    <p>За 5 лет нашей работы мы успели поработать с большим количеством автомобилей разных марок,
+                        классов и цветов. <br>По нашим подсчетам количество клиентов в нашем центре уже превышает
+                        отметку в 10 000!</p>
+                </div>
+                <div class="content-button">
+                    <a href="/services.html#block-services" class="button request-button">Выбрать услугу<svg data-v-5dfe8db4="" class="btn-big-arrow__icon"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path data-v-5dfe8db4=""
+                                d="M4 11.25C3.58579 11.25 3.25 11.5858 3.25 12C3.25 12.4142 3.58579 12.75 4 12.75L4 11.25ZM20 12.75C20.4142 12.75 20.75 12.4142 20.75 12C20.75 11.5858 20.4142 
+                    11.25 20 11.25V12.75ZM16.528 6.46731C16.2338 6.17573 15.7589 6.17784 15.4673 6.47204C15.1757 6.76624 15.1778 7.24111 15.472 7.53269L16.528 6.46731ZM17.763 8.74731L17.235 9.28L17.763 
+                    8.74731ZM17.763 15.2527L18.2909 15.7854L17.763 15.2527ZM15.472 16.4673C15.1778 16.7589 15.1757 17.2338 15.4673 17.528C15.7589 17.8222 16.2338 17.8243 16.528 17.5327L15.472 16.4673ZM19.9801
+                     11.6867L20.7241 11.5918V11.5918L19.9801 11.6867ZM19.9801 12.3133L20.7241 12.4082V12.4082L19.9801 12.3133ZM4 12.75L20 12.75V11.25L4 11.25L4 12.75ZM15.472 7.53269L17.235 9.28L18.2909 8.21462L16.528
+                      6.46731L15.472 7.53269ZM17.235 14.72L15.472 16.4673L16.528 17.5327L18.2909 15.7854L17.235 14.72ZM17.235 9.28C17.9505 9.98914 18.4413 10.4772 18.7734 10.8907C19.096 11.2924 19.2067 11.5504 19.2361
+                       11.7815L20.7241 11.5918C20.6453 10.9737 20.3504 10.4588 19.9429 9.95146C19.545 9.45597 18.9814 8.89892 18.2909 8.21462L17.235 9.28ZM18.2909 15.7854C18.9814 15.1011 19.545 14.544 19.9429 14.0485C20.3504
+                        13.5412 20.6453 13.0263 20.7241 12.4082L19.2361 12.2185C19.2067 12.4496 19.096 12.7076 18.7734 13.1093C18.4413 13.5228 17.9505 14.0109 17.235 14.72L18.2909 15.7854ZM19.2361 11.7815C19.2546 11.9266 19.2546
+                         12.0734 19.2361 12.2185L20.7241 12.4082C20.7586 12.1371 20.7586 11.8629 20.7241 11.5918L19.2361 11.7815Z">
+                            </path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+        <ul class="breadcrumb">
+            <li><a href="/main.html">Главная</a></li>
+            <li>Портфолио</li>
+        </ul>
+
+
+        <div class="block-services" style="padding: 0rem 8rem 7.5rem 8rem;">
+            <div class="heading">
+                <h3>Наши работы</h3>
+            </div>
+            <div class="block-services-cards">
+                <div class="card">
+                    <div class="card-link">
+                        <img src="img/webp/portfolio-img01.png" alt="">
+                        <div class="text-overlay">
+                            <h5>Полировка кузова</h5>
+                            <p>BMW M5 F90</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-link">
+                        <img src="img/webp/portfolio-img02.png" alt="">
+                        <div class="text-overlay">
+                            <h5>Ремонт салона</h5>
+                            <p>Porsche Macan</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-link">
+                        <img src="img/webp/portfolio-img03.png" alt="">
+                        <div class="text-overlay">
+                            <h5>Полировка кузова</h5>
+                            <p>BMW M5 E60</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-link">
+                        <img src="img/webp/portfolio-img04.png" alt="">
+                        <div class="text-overlay">
+                            <h5>Полировка кузова</h5>
+                            <p>Mercedes-Benz C-Class (W204)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-link">
+                        <img src="img/webp/portfolio-img05.png" alt="">
+                        <div class="text-overlay">
+                            <h5>Нанесение защитных покрытий</h5>
+                            <p>Mercedes-Benz S500 (W222)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-link">
+                        <img src="img/webp/portfolio-img06.png" alt="">
+                        <div class="text-overlay">
+                            <h5>Керамика</h5>
+                            <p>Mercedes-Benz M-Class (W166)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-link">
+                        <img src="img/webp/portfolio-img07.png" alt="">
+                        <div class="text-overlay">
+                            <h5>Химчистка салона</h5>
+                            <p>BMW 530d F10</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-link">
+                        <img src="img/webp/portfolio-img08.png" alt="">
+                        <div class="text-overlay">
+                            <h5>Покраска кузова</h5>
+                            <p>MINI Hatch 2</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-link">
+                        <img src="img/webp/portfolio-img09.png" alt="">
+                        <div class="text-overlay">
+                            <h5>Полировка кузова</h5>
+                            <p>Bugatti Veyron</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-link">
+                        <img src="img/webp/portfolio-img10.png" alt="">
+                        <div class="text-overlay">
+                            <h5>Тонировка</h5>
+                            <p>Hyundai Solaris 1</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-link">
+                        <img src="img/webp/portfolio-img11.png" alt="">
+                        <div class="text-overlay">
+                            <h5>Химчистка салона</h5>
+                            <p>BMW 530d F10</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-link">
+                        <img src="img/webp/portfolio-img12.png" alt="">
+                        <div class="text-overlay">
+                            <h5>Обтяжка пленкой</h5>
+                            <p>BMW X5</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="block-form" id="entry-form">
+            <form class="form">
+                <div class="form-text">
+                    <h2 class="form-title">Оставить заявку</h2>
+                    <p class="form-info">Оставьте свои контактные данные и мы свяжемся <br> с Вами в ближайшее время</p>
+                </div>
+                <div class="form-inner">
+                    <div class="form-inputs">
+                        <input type="text" name="name" class="input" placeholder="Ваше имя">
+                        <input type="text" id="phone" inputmode="tel" class="input" name="phone" placeholder="Телефон">
+                        <input type="text" id="message" class="input" name="message" placeholder="Примечание">
+                    </div>
+                    <div class="policy-checkbox-text">
+                        <input type="checkbox" id="policy" class="checkbox" name="policy">
+                        <label for="policy" class="policy-text">Согласие на обработку персональных данных*</label>
+                    </div>
+                    <button type="submit">Отправить заявку</button>
+                </div>
+            </form>
+        </div>
+
+        <div class="block-contacts">
+            <div class="heading">
+                <h3>Контакты</h3>
+            </div>
+            <div class="block-contacts-content">
+                <div class="contacts-left">
+                    <div class="contacts-left-text">
+                        <p>Адрес</p>
+                        <h4><a
+                                href="https://yandex.ru/maps/213/moscow/house/prirechnaya_ulitsa_1k1/Z04YdQFpTEYHQFtvfXp1cHxqYw==/">Приречная ул., 1,
+                                корп. 1, Москва</a></h4>
+                    </div>
+                    <div class="contacts-left-text">
+                        <p>Телефон</p>
+
+                        <h4><a href="tel:»:+79663503434">+7 (966) 350-34-34</a></h4>
+
+                    </div>
+                    <div class="contacts-left-text">
+                        <p>График работы</p>
+                        <h4>пн-вс 10:00-21:00</h4>
+                    </div>
+                    <div class="contact-left-messengers">
+                        <a href="https://t.me/+79663503434"><svg xmlns="http://www.w3.org/2000/svg" class="tg"
+                                version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64" x="0"
+                                y="0" viewbox="0 0 64 64 " style="enable-background:new 0 0 512 512"
+                                xml:space="preserve" fill-rule="evenodd" fill="#fff">
+                                <g>
+                                    <path
+                                        d="M33.131 28.68c-3.818 3.513-7.544 6.84-7.544 6.84a1.25 1.25 0 1 0 1.665 1.864s9.762-8.714 13.93-12.882c.637-.636.828-1.122.862-1.325a1.242 1.242 0 0 0-.353-1.14 1.294 1.294 0 0 0-.905-.398c-.212-.01-.684.073-1.319.372-3.633 1.71-18.08 11.334-18.08 11.334a1.25 1.25 0 1 0 1.386 2.08s5.378-3.586 10.358-6.745z"
+                                        opacity="1" data-original="#000000" class=""></path>
+                                    <path
+                                        d="M32 2.75C15.856 2.75 2.75 15.856 2.75 32S15.856 61.25 32 61.25 61.25 48.144 61.25 32 48.144 2.75 32 2.75zm0 2.5c14.764 0 26.75 11.986 26.75 26.75S46.764 58.75 32 58.75 5.25 46.764 5.25 32 17.236 5.25 32 5.25z"
+                                        opacity="1" data-original="#000000" class=""></path>
+                                    <path
+                                        d="m21.076 35.375 2.675 8.702c.01.032.021.064.033.094.285.715.57 1.13.775 1.327.37.356.749.438 1.063.43.442-.013 1.154-.277 1.436-1.325.02-.077.034-.155.04-.234l.404-5.57 10.567 7.773c1.086.824 2.062.999 2.801.773.763-.233 1.502-.932 1.851-2.42.002-.008.005-.017.006-.026l5.216-24.577c.31-1.309.136-2.287-.29-2.858-.493-.665-1.426-1.117-3.013-.688a1 1 0 0 0-.126.041L13.878 28.7c-.047.018-.093.04-.139.063-1.451.78-1.774 1.67-1.779 2.248-.005.777.54 1.529 1.465 1.9.028.011.055.022.084.03zm24.516-16.242c-.012.178-.036.42-.085.623l-.008.033-5.214 24.574a3.26 3.26 0 0 1-.19.518 3.37 3.37 0 0 1-.518-.305l-.019-.013-12.399-9.119a1.251 1.251 0 0 0-1.987.917l-.225 3.096-1.673-5.44a1.251 1.251 0 0 0-.812-.822l-7.247-2.332 30.132-11.687a2.55 2.55 0 0 1 .245-.043z"
+                                        opacity="1" data-original="#000000" class=""></path>
+                                    <path
+                                        d="m26.442 45.617 5.435-4.694a1.25 1.25 0 0 0-1.634-1.893l-5.434 4.694a1.25 1.25 0 1 0 1.633 1.893z"
+                                        opacity="1" data-original="#000000" class=""></path>
+                                </g>
+                            </svg></a>
+                        <a
+                            href="https://wa.me/79663503434?text=%D0%9E%D0%B1%D1%80%D0%B0%D1%89%D0%B5%D0%BD%D0%B8%D0%B5+%D0%B8%D0%B7+%D0%AF%D0%BD%D0%B4%D0%B5%D0%BA%D1%81+%D0%9A%D0%B0%D1%80%D1%82%0A%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!+%D0%9C%D0%B5%D0%BD%D1%8F+%D0%B7%D0%B0%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%B5%D1%81%D0%BE%D0%B2%D0%B0%D0%BB%D0%BE+%D0%B2%D0%B0%D1%88%D0%B5+%D0%BF%D1%80%D0%B5%D0%B4%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5">
+
+                            <svg xmlns="http://www.w3.org/2000/svg" class="wa" version="1.1"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" width="60" height="60" x="0" y="0"
+                                viewbox="0 0 24 24" style="enable-background:new 0 0 512 512" xml:space="preserve"
+                                fill="none" stroke="#ffffff">
+                                <g>
+                                    <g stroke-linecap="round" stroke-linejoin="round">
+                                        <path
+                                            d="M12 .5a11.5 11.5 0 0 0-9.54 17.92L.5 23.5l5.23-1.87A11.5 11.5 0 1 0 12 .5z"
+                                            fill="" opacity="1"></path>
+                                        <path
+                                            d="M9.5 14.5c1.3 1.3 4.17 3 5.5 3a2.53 2.53 0 0 0 2.5-2v-1s-1.23-.6-2-1-2 1-2 1A6.52 6.52 0 0 1 11 13a6.52 6.52 0 0 1-1.5-2.5s1.4-1.23 1-2-1-2-1-2h-1a2.53 2.53 0 0 0-2 2.5c0 1.33 1.7 4.2 3 5.5z"
+                                            fill="" opacity="1"></path>
+                                    </g>
+                                </g>
+
+                            </svg></a>
+                    </div>
+                </div>
+                <div class="contacts-right">
+                    <div class="contacts-right-text">
+                        <img src="img/svg/Check.svg" alt="check">
+                        <h4>Парковка для людей с инвалидностью</h4>
+                    </div>
+                    <div class="contacts-right-text">
+                        <img src="img/svg/Check.svg" alt="check">
+                        <h4>Пандус</h4>
+                    </div>
+                    <div class="contacts-right-text">
+                        <img src="img/svg/Check.svg" alt="check">
+                        <h4>Мы принимаем любой способ оплаты</h4>
+                    </div>
+                    <div class="contacts-right-text">
+                        <img src="img/svg/Check.svg" alt="check">
+                        <h4>Посещение по предварительной записи</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="map">
+            <div style="position:relative;overflow:hidden;"><a
+                    href="https://yandex.ru/maps/org/elmi/139070241047/?utm_medium=mapframe&utm_source=maps"
+                    style="color:#eee;font-size:12px;position:absolute;top:0px;">Elmi</a><a
+                    href="https://yandex.ru/maps/213/moscow/category/auto_detailing/9561111444/?utm_medium=mapframe&utm_source=maps"
+                    style="color:#eee;font-size:12px;position:absolute;top:14px;">Детейлинг в Москве</a><iframe
+                    src="https://yandex.ru/map-widget/v1/org/elmi/139070241047/?ll=37.369528%2C55.641044&utm_content=more-reviews&utm_medium=reviews&utm_source=maps-reviews-widget&z=16.95"
+                    style="position:relative;"></iframe>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-logo-contacts">
+                    <a href="/main.html" class="logo"><img src="img/svg/logo-full.svg" alt=""></a>
+                    <div class="footer-contacts">
+                        <div class="contacts-left-text">
+                            <p>Адрес</p>
+                            <h5><a
+                                    href="https://yandex.ru/maps/213/moscow/house/prirechnaya_ulitsa_1k1/Z04YdQFpTEYHQFtvfXp1cHxqYw==/">Приречная ул., 1,
+                                    корп. 1, Москва</a></h5>
+                        </div>
+                        <div class="contacts-left-text">
+                            <p>Телефон</p>
+
+                            <h5><a href="tel:»:+79663503434">+7 (966) 350-34-34</a></h5>
+
+                        </div>
+                        <div class="contacts-left-text">
+                            <p>График работы</p>
+                            <h5>пн-вс 10:00-21:00</h5>
+                        </div>
+                        <div class="contact-left-messengers">
+                            <a href="https://t.me/+79663503434"><svg xmlns="http://www.w3.org/2000/svg" class="tg"
+                                    version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64"
+                                    x="0" y="0" viewbox="0 0 64 64" style="enable-background:new 0 0 512 512"
+                                    xml:space="preserve" fill-rule="evenodd" fill="#ffffff">
+
+                                    <g>
+                                        <path
+                                            d="M33.131 28.68c-3.818 3.513-7.544 6.84-7.544 6.84a1.25 1.25 0 1 0 1.665 1.864s9.762-8.714 13.93-12.882c.637-.636.828-1.122.862-1.325a1.242 1.242 0 0 0-.353-1.14 1.294 1.294 0 0 0-.905-.398c-.212-.01-.684.073-1.319.372-3.633 1.71-18.08 11.334-18.08 11.334a1.25 1.25 0 1 0 1.386 2.08s5.378-3.586 10.358-6.745z"
+                                            opacity="1" data-original="#000000" class=""></path>
+                                        <path
+                                            d="M32 2.75C15.856 2.75 2.75 15.856 2.75 32S15.856 61.25 32 61.25 61.25 48.144 61.25 32 48.144 2.75 32 2.75zm0 2.5c14.764 0 26.75 11.986 26.75 26.75S46.764 58.75 32 58.75 5.25 46.764 5.25 32 17.236 5.25 32 5.25z"
+                                            opacity="1" data-original="#000000" class=""></path>
+                                        <path
+                                            d="m21.076 35.375 2.675 8.702c.01.032.021.064.033.094.285.715.57 1.13.775 1.327.37.356.749.438 1.063.43.442-.013 1.154-.277 1.436-1.325.02-.077.034-.155.04-.234l.404-5.57 10.567 7.773c1.086.824 2.062.999 2.801.773.763-.233 1.502-.932 1.851-2.42.002-.008.005-.017.006-.026l5.216-24.577c.31-1.309.136-2.287-.29-2.858-.493-.665-1.426-1.117-3.013-.688a1 1 0 0 0-.126.041L13.878 28.7c-.047.018-.093.04-.139.063-1.451.78-1.774 1.67-1.779 2.248-.005.777.54 1.529 1.465 1.9.028.011.055.022.084.03zm24.516-16.242c-.012.178-.036.42-.085.623l-.008.033-5.214 24.574a3.26 3.26 0 0 1-.19.518 3.37 3.37 0 0 1-.518-.305l-.019-.013-12.399-9.119a1.251 1.251 0 0 0-1.987.917l-.225 3.096-1.673-5.44a1.251 1.251 0 0 0-.812-.822l-7.247-2.332 30.132-11.687a2.55 2.55 0 0 1 .245-.043z"
+                                            opacity="1" data-original="#000000" class=""></path>
+                                        <path
+                                            d="m26.442 45.617 5.435-4.694a1.25 1.25 0 0 0-1.634-1.893l-5.434 4.694a1.25 1.25 0 1 0 1.633 1.893z"
+                                            opacity="1" data-original="#000000" class=""></path>
+                                    </g>
+
+                                </svg></a>
+                            <a
+                                href="https://wa.me/79663503434?text=%D0%9E%D0%B1%D1%80%D0%B0%D1%89%D0%B5%D0%BD%D0%B8%D0%B5+%D0%B8%D0%B7+%D0%AF%D0%BD%D0%B4%D0%B5%D0%BA%D1%81+%D0%9A%D0%B0%D1%80%D1%82%0A%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!+%D0%9C%D0%B5%D0%BD%D1%8F+%D0%B7%D0%B0%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%B5%D1%81%D0%BE%D0%B2%D0%B0%D0%BB%D0%BE+%D0%B2%D0%B0%D1%88%D0%B5+%D0%BF%D1%80%D0%B5%D0%B4%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="wa" version="1.1"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="60" height="60" x="0" y="0"
+                                    viewbox="0 0 24 24" fill="none" stroke="#ffffff"
+                                    style="enable-background:new 0 0 512 512" xml:space="preserve">
+                                    <g>
+                                        <g stroke-linecap="round" stroke-linejoin="round">
+                                            <path
+                                                d="M12 .5a11.5 11.5 0 0 0-9.54 17.92L.5 23.5l5.23-1.87A11.5 11.5 0 1 0 12 .5z"
+                                                fill="" opacity="1"></path>
+                                            <path
+                                                d="M9.5 14.5c1.3 1.3 4.17 3 5.5 3a2.53 2.53 0 0 0 2.5-2v-1s-1.23-.6-2-1-2 1-2 1A6.52 6.52 0 0 1 11 13a6.52 6.52 0 0 1-1.5-2.5s1.4-1.23 1-2-1-2-1-2h-1a2.53 2.53 0 0 0-2 2.5c0 1.33 1.7 4.2 3 5.5z"
+                                                fill="" opacity="1"></path>
+                                        </g>
+                                    </g>
+
+                                </svg> </a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#entry-form" class="button request-button">Оставить заявку <svg data-v-5dfe8db4=""
+                            class="btn-big-arrow__icon" xmlns="http://www.w3.org/2000/svg">
+                            <path data-v-5dfe8db4=""
+                                d="M4 11.25C3.58579 11.25 3.25 11.5858 3.25 12C3.25 12.4142 3.58579 12.75 4 12.75L4 11.25ZM20 12.75C20.4142 12.75 20.75 12.4142 20.75 12C20.75 11.5858 20.4142 
+                    11.25 20 11.25V12.75ZM16.528 6.46731C16.2338 6.17573 15.7589 6.17784 15.4673 6.47204C15.1757 6.76624 15.1778 7.24111 15.472 7.53269L16.528 6.46731ZM17.763 8.74731L17.235 9.28L17.763 
+                    8.74731ZM17.763 15.2527L18.2909 15.7854L17.763 15.2527ZM15.472 16.4673C15.1778 16.7589 15.1757 17.2338 15.4673 17.528C15.7589 17.8222 16.2338 17.8243 16.528 17.5327L15.472 16.4673ZM19.9801
+                     11.6867L20.7241 11.5918V11.5918L19.9801 11.6867ZM19.9801 12.3133L20.7241 12.4082V12.4082L19.9801 12.3133ZM4 12.75L20 12.75V11.25L4 11.25L4 12.75ZM15.472 7.53269L17.235 9.28L18.2909 8.21462L16.528
+                      6.46731L15.472 7.53269ZM17.235 14.72L15.472 16.4673L16.528 17.5327L18.2909 15.7854L17.235 14.72ZM17.235 9.28C17.9505 9.98914 18.4413 10.4772 18.7734 10.8907C19.096 11.2924 19.2067 11.5504 19.2361
+                       11.7815L20.7241 11.5918C20.6453 10.9737 20.3504 10.4588 19.9429 9.95146C19.545 9.45597 18.9814 8.89892 18.2909 8.21462L17.235 9.28ZM18.2909 15.7854C18.9814 15.1011 19.545 14.544 19.9429 14.0485C20.3504
+                        13.5412 20.6453 13.0263 20.7241 12.4082L19.2361 12.2185C19.2067 12.4496 19.096 12.7076 18.7734 13.1093C18.4413 13.5228 17.9505 14.0109 17.235 14.72L18.2909 15.7854ZM19.2361 11.7815C19.2546 11.9266 19.2546
+                         12.0734 19.2361 12.2185L20.7241 12.4082C20.7586 12.1371 20.7586 11.8629 20.7241 11.5918L19.2361 11.7815Z">
+                            </path>
+                        </svg>
+                    </a>
+            </div>
+
+            <div class="footer-additional-text">
+                <h6>© 2025 ELMI</h6>
+                <p>Данный сайт носит исключительно информационный характер и ни при каких условиях информационные
+                    материалы и цены, <br> размещенные на сайте, не является публичной офертой, определяемой положениями
+                    Статьи 437 Гражданского кодекса РФ.</p>
+            </div>
+        </footer>
+
+    </div>
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" defer></script>
+</body>
+
+</html>
